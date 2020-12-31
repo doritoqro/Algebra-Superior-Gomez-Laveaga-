@@ -6,74 +6,109 @@
 \begin{enumerate}[label=0.1.\arabic*]
 	% Inciso --- 0.1.1 ---
 	\item Determine cuáles de las siguientes oraciones son proposiciones.
-	\begin{enumerate}[label=(\arabic*)]
-		% Inciso --- (1) ---
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
 		\item El 7 de diciembre de 1941 fue domingo. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que se puede establecer su valor de verdad por lo que sí es una proposición.
 		
-		% Inciso --- (2) ---
+		% Inciso --- 2) ---
 		\item Algunos números enteros son negativos. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que se puede establecer su valor de verdad por lo que sí es una proposición.
 		
-		% Inciso --- (3) ---
+		% Inciso --- 3) ---
 		\item ¡Si todas las mañanas fueran tan soleadas y despejadas como ésta! \\
 		\solucion: \\
+		La oración es del tipo exclamativo, por lo que no es proposición.
 		
-		% Inciso --- (4) ---
+		% Inciso --- 4) ---
 		\item El número 15 es un número par. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que se puede establecer su valor de verdad por lo que sí es una proposición.
 		
-		% Inciso --- (5) ---
+		% Inciso --- 5) ---
 		\item Esta frase es falsa. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que no se puede establecer su valor de verdad, es una paradoja, por lo que no es una proposición.
 		
-		% Inciso --- (6) ---
+		% Inciso --- 6) ---
 		\item ¿Qué hora es? \\
 		\solucion: \\
+		La oración es del tipo interrogativo, por lo que no es una proposición.
 		
-		% Inciso --- (7) ---
+		% Inciso --- 7) ---
 		\item Todos los círculos del mismo radio son iguales. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que se puede establecer su valor de verdad por lo que sí es una proposición.
 		
-		% Inciso --- (8) ---
+		% Inciso --- 8) ---
 		\item En los números enteros, $ 11+6 \neq 12 $. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que se puede establecer su valor de verdad por lo que sí es una proposición.
 		
-		% Inciso --- (9) ---
+		% Inciso --- 9) ---
 		\item La tierra es redonda. \\
 		\solucion: \\
+		La oración es del tipo declarativo del que se puede establecer su valor de verdad por lo que sí es una proposición.
 		
 	\end{enumerate}
 
 	% Inciso --- 0.1.2 ---
 	\item Diga si cada una de las siguientes proposiciones acerca de los números enteros es verdadera o falsa.
-	\begin{enumerate}[label=(\arabic*)]
-		% Inciso --- (1) ---
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
 		\item $ (3+1 = 4) \vee (2+5 = 9) $ . \\
 		\solucion: \\
+		Sean las proposiciones
+		\[ P: 3+1 = 4 \qquad \text{y} \qquad Q: 2+5 = 9\]
+		Por lo que el enunciado se simboliza como
+		\[ P \vee Q \]
+		La proposición $ P $ es verdadera. La proposición $ Q $ es falsa. Atendiendo a la tabla de verdad del conectivo lógico de la disyunción, ésta es falsa únicamente cuando ambas proposición de las que se compone son falsas. Como esto no sucede en nuestro caso, el enunciado es verdadero.
 		
-		% Inciso --- (2) ---
+		% Inciso --- 2) ---
 		\item $ (5-1 = 4) \wedge (9+12 \neq 7) $ . \\
 		\solucion: \\
+		Sean las proposiciones
+		\[ P: 5-1 = 4 \qquad \text{y} \qquad Q: 9+12 \neq 7\]
+		Por lo que el enunciado se simboliza como
+		\[ P \wedge Q \]
+		La proposición $ P $ es verdadera. La proposición $ Q $ es verdadera. Atendiendo a la tabla de verdad del conectivo lógico de la conjunción, ésta es falsa si cualquiera de las proposiciones de las que se compone es falsa, como esto no sucede en nuestro caso, el enunciado el verdadero.
 		
-		% Inciso --- (3) ---
+		% Inciso --- 3) ---
 		\item $ (3<10 = 4) \vee (7 \neq 2) $ . \\
 		\solucion: \\
+		Sean las proposiciones
+		\[ P: 3<10 = 4 \qquad \text{y} \qquad Q: 7 \neq 2 \]
+		Por lo que el enunciado se simboliza como
+		\[ P \vee Q \]
+		La proposición $ P $ a su vez se puede descomponer como
+		\[ P: (3 < 10) \wedge (10 = 4) \]
+		Sean las proposiciones
+		\[ P_1: 3 < 10 \qquad \text{y} \qquad P_2: 10 = 4 \]
+		La proposición $ P_1 $ es verdadera. La proposición $ P_2 $ es falsa. El valor de verdad de la proposición $ P $, atendiendo a la tabla de verdad del conectivo de la conjunción, es falso.
 		
-		% Inciso --- (4) ---
-		\item $ (4 = 11-7) \Longrightarrow (8>10) $ . \\
+		Por otro lado, el valor veritativo de la proposición $ Q $ es verdadero. Atendiendo a la tabla de verdad del conectivo de la disyunción, ya que $ P $ es falso y $ Q $ es verdadero, la proposición representada por el enunciado original es por tanto verdadero.
+		
+		% Inciso --- 4) ---
+		\item $ (4 = 11-7) \Rightarrow (8>10) $ . \\
+		\solucion: \\
+		Sea 
+		\[ P: 4 = 11-7 \qquad \text{y} \qquad Q: 8>10  \]
+		Por lo que el enunciado se simboliza como
+		\[ P \Rightarrow Q \]
+		La proposición $ P $ es verdadera. La proposición $ Q $ es falsa. Atendiendo a la tabla de verdad del conectivo de implicación se tiene que el enunciado proposicional es por tanto falso.
+		
+		% Inciso --- 5) ---
+		\item $ (4^2 \neq 16) \Rightarrow (4-4 = 8) $ . \\
 		\solucion: \\
 		
-		% Inciso --- (5) ---
-		\item $ (4^2 \neq 16) \Longrightarrow (4-4 = 8) $ . \\
+		% Inciso --- 6) ---
+		\item $ (5+2 = 10) \Leftrightarrow (17+19=36) $ . \\
 		\solucion: \\
 		
-		% Inciso --- (6) ---
-		\item $ (5+2 = 10) \Longleftrightarrow (17+19=36) $ . \\
-		\solucion: \\
-		
-		% Inciso --- (7) ---
-		\item $ (6 = 5) \Longleftrightarrow (12 \neq 12) $ . \\
+		% Inciso --- 7) ---
+		\item $ (6 = 5) \Leftrightarrow (12 \neq 12) $ . \\
 		\solucion: \\
 		
 	\end{enumerate}
@@ -83,118 +118,478 @@
 	\solucion: \\
 	
 	% Inciso --- 0.1.4 ---
-	\item Sean $ P $ y $ Q $ proposiciones tales que $ P \Longrightarrow Q $ es falsa. Determine los valores de verdad de
-	\begin{enumerate}[label=(\arabic*)]
-		% Inciso --- (1) ---
+	\item Sean $ P $ y $ Q $ proposiciones tales que $ P \Rightarrow Q $ es falsa. Determine los valores de verdad de
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
 		\item $ \neg P \vee Q $ \\
 		\solucion: \\
 		
-		% Inciso --- (2) ---
+		% Inciso --- 2) ---
 		\item $ P \wedge Q $ \\
 		\solucion: \\
 		
-		% Inciso --- (3) ---
-		\item $ Q \Longrightarrow P $ \\
+		% Inciso --- 3) ---
+		\item $ Q \Rightarrow P $ \\
 		\solucion: \\
 		
-		% Inciso --- (4) ---
-		\item $ \neg Q \Longrightarrow \neg P $ \\
+		% Inciso --- 4) ---
+		\item $ \neg Q \Rightarrow \neg P $ \\
 		\solucion: \\
 		
-		% Inciso --- (5) ---
-		\item $ P \Longleftrightarrow Q $ \\
+		% Inciso --- 5) ---
+		\item $ P \Leftrightarrow Q $ \\
 		\solucion: \\
 		
 	\end{enumerate}
 
 	% Inciso --- 0.1.5 ---
 	\item Si $ P $ y $ R $ representan proposiciones verdaderas y $ Q $ y $ S $ representan proposiciones falsas, encuentre el valor de verdad de las proposiciones compuestas dadas a continuación:
-	\begin{enumerate}[label=(\arabic*)]
-		% Inciso --- (1) ---
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
 		\item $ \neg P \wedge R $ \\
 		\solucion: \\
 		
-		% Inciso --- (2) ---
+		% Inciso --- 2) ---
 		\item $ \neg Q \vee \neg R $ \\
 		\solucion: \\
 		
-		% Inciso --- (3) ---
+		% Inciso --- 3) ---
 		\item $ \neg [ \neg P \wedge (\neg Q \vee P) ] $ \\
 		\solucion: \\
 		
-		% Inciso --- (4) ---
+		% Inciso --- 4) ---
 		\item $ \neg [ ( \neg P \wedge \neg Q ) \vee \neg Q ] $ \\
 		\solucion: \\
 		
-		% Inciso --- (5) ---
+		% Inciso --- 5) ---
 		\item $ (P \wedge R) \vee \neg Q $ \\
 		\solucion: \\
 		
-		% Inciso --- (6) ---
+		% Inciso --- 6) ---
 		\item $ (Q \vee \neg R) \wedge P $ \\
 		\solucion: \\
 		
-		% Inciso --- (7) ---
+		% Inciso --- 7) ---
 		\item $ ( \neg P \wedge Q ) \vee \neg R $ \\
 		\solucion: \\
 		
-		% Inciso --- (8) ---
+		% Inciso --- 8) ---
 		\item $ \neg ( P \wedge Q ) \wedge (P \wedge \neg Q) $ \\
 		\solucion: \\
 		
-		% Inciso --- (9) ---
+		% Inciso --- 9) ---
 		\item $ (\neg R \wedge \neg Q) \vee (\neg R \wedge Q) $ \\
 		\solucion: \\
 		
-		% Inciso --- (10) ---
+		% Inciso --- 10) ---
 		\item $ \neg [ ( \neg P \wedge Q ) \vee R ] $ \\
 		\solucion: \\
 		
-		% Inciso --- (11) ---
+		% Inciso --- 11) ---
 		\item $ \neg [ R \vee ( \neg Q \wedge \neg P ) ] $ \\
 		\solucion: \\
 		
-		% Inciso --- (12) ---
-		\item $ \neg P \Longrightarrow \neg Q $ \\
+		% Inciso --- 12) ---
+		\item $ \neg P \Rightarrow \neg Q $ \\
 		\solucion: \\
 		
-		% Inciso --- (13) ---
-		\item $ \neg (P \Longrightarrow Q) $ \\
+		% Inciso --- 13) ---
+		\item $ \neg (P \Rightarrow Q) $ \\
 		\solucion: \\
 		
-		% Inciso --- (14) ---
-		\item $ ( P \Longrightarrow Q ) \Longrightarrow R $ \\
+		% Inciso --- 14) ---
+		\item $ ( P \Rightarrow Q ) \Rightarrow R $ \\
 		\solucion: \\
 		
-		% Inciso --- (15) ---
-		\item $ P \Longrightarrow ( Q \Longrightarrow R ) $ \\
+		% Inciso --- 15) ---
+		\item $ P \Rightarrow ( Q \Rightarrow R ) $ \\
 		\solucion: \\
 		
-		% Inciso --- (16) ---
-		\item $ [S \Longrightarrow (P \wedge \neg R)] \wedge [( P \Longrightarrow (R \vee Q) ) \wedge S] $ \\
+		% Inciso --- 16) ---
+		\item $ [S \Rightarrow (P \wedge \neg R)] \wedge [( P \Rightarrow (R \vee Q) ) \wedge S] $ \\
 		\solucion: \\
 		
-		% Inciso --- (17) ---
-		\item $ [(P \vee \neg Q) \Longrightarrow (Q \wedge R)] \Longrightarrow (S \vee \neg Q) $ \\
+		% Inciso --- 17) ---
+		\item $ [(P \vee \neg Q) \Rightarrow (Q \wedge R)] \Rightarrow (S \vee \neg Q) $ \\
 		\solucion: \\
 		
 	\end{enumerate}
 
 	% Inciso --- 0.1.6 ---
 	\item
-	\begin{enumerate}[label=(\alph*)]
-		% Inciso --- (a) ---
+	\begin{enumerate}[label=\alph*)]
+		% Inciso --- a) ---
 		\item Si la proposición $ Q $ es verdadera, determine todas las asignaciones de valores de verdad para las proposiciones $ P $, $ R $ y $ S $ para que la proposición
-		\[ [Q \Longrightarrow ((\neg P \vee R) \wedge \neg S)] \wedge [\neg S \Longrightarrow (\neg R \wedge Q)] \]
+		\[ [Q \Rightarrow ((\neg P \vee R) \wedge \neg S)] \wedge [\neg S \Rightarrow (\neg R \wedge Q)] \]
 		sea verdadera. \\
 		\solucion: \\
 		
-		% Inciso --- (b) ---
+		% Inciso --- b) ---
 		\item Responda la parte (a) si $ Q $ es falsa. \\
 		\solucion: \\
 		
 	\end{enumerate}
 
+	% Inciso --- 0.1.7 ---
+	\item Sean $ P(x) $, $ Q(x) $ y $ R(x) $ los siguientes predicados. \\
+	\begin{tabular}{l}
+		$ P(x): x \leq 3 $. \\
+		$ Q(x): x + 1 $ es impar. \\
+		$ R(x): x > 0 $.
+	\end{tabular} \\
+	Si nuestro conjunto de referencia consta de todos los enteros, ¿cuáles son los valores de verdad de las siguientes proposiciones?
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item $ P(1) $ \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item $ Q(1) $ \\
+		\solucion: \\
+		
+		% Inciso --- 3) ---
+		\item $ \neg P(3) $ \\
+		\solucion: \\
+		
+		% Inciso --- 4) ---
+		\item $ Q(6) $ \\
+		\solucion: \\
+		
+		% Inciso --- 5) ---
+		\item $ P(7) \vee Q(7) $ \\
+		\solucion: \\
+		
+		% Inciso --- 6) ---
+		\item $ P(3) \wedge Q(4) $ \\
+		\solucion: \\
+		
+		% Inciso --- 7) ---
+		\item $ P(4) $ \\
+		\solucion: \\
+		
+		% Inciso --- 8) ---
+		\item $ \neg [P(-4) \vee Q(-3)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 9) ---
+		\item $ P(3) \vee [Q(3) \vee \neg R(3)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 10) ---
+		\item $ \neg P(3) \wedge [Q(3) \vee R(3)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 11) ---
+		\item $ P(2) \Rightarrow [Q(2) \Rightarrow R(2)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 12) ---
+		\item $ [P(2) \wedge Q(2)] \Rightarrow R(2) $ \\
+		\solucion: \\
+		
+		% Inciso --- 13) ---
+		\item $ P(0) \Rightarrow [\neg Q(-1) \Leftrightarrow R(1)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 14) ---
+		\item $ [P(-1) \Leftrightarrow Q(-2)] \Leftrightarrow R(-3) $ \\
+		\solucion: \\
+	\end{enumerate}
+
+	% Inciso --- 0.1.8 ---
+	\item Sean $ P(x) $, $ Q(x) $ y $ R(x) $ son los siguientes predicados. \\
+	\begin{tabular}{l}
+		$ P(x): x^2 - 7x + 10 = 0 $. \\
+		$ Q(x): x^2 - 2x - 3 = 0 $. \\
+		$ R(x): x < 0  $.
+	\end{tabular} \\
+	Determine la verdad o falsedad de las siguientes proposiciones, en las que nuestro conjunto de referencia  consta de todos los enteros. Si la proposición es falsa dé un contraejemplo o explicación.
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item $ \forall x [P(x) \Rightarrow \neg R(x)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item $ \forall x [Q(x) \Rightarrow R(x)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 3) ---
+		\item $ \exists x [Q(x) \Rightarrow R(x)] $ \\
+		\solucion: \\
+		
+		% Inciso --- 4) ---
+		\item $ \exists x [P(x) \Rightarrow R(x)] $ \\
+		\solucion: \\
+		
+	\end{enumerate}
+
+	% Inciso --- 0.1.9 ---
+	\item Determine el valor de verdad de cada una  de las siguientes proposiciones. El conjunto de referencia de cada proposición  es el conjunto de números reales.
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item $ \forall x (x^2 > x) $ \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item $ \exists x (x^2 > x) $ \\
+		\solucion: \\
+		
+		% Inciso --- 3) ---
+		\item $ \forall x (x > 1) \Rightarrow x^2 > x $ \\
+		\solucion: \\
+		
+		% Inciso --- 4) ---
+		\item $ \exists x (x > 1) \Rightarrow x^2 > x $ \\
+		\solucion: \\
+		
+		% Inciso --- 5) ---
+		\item $ \forall x (x > 1) \Rightarrow \frac{x}{x^2 + 1} < \frac{1}{3} $ \\
+		\solucion: \\
+		
+		% Inciso --- 6) ---
+		\item $ \exists x (x > 1) \Rightarrow \frac{x}{x^2 + 1} < \frac{1}{3} $ \\
+		\solucion: \\
+		
+	\end{enumerate}
+
+	% Inciso --- 0.1.10 ---
+	\item Sean $ P $, $ Q $ y $ R $ proposiciones. Construya una tabla de verdad para cada una de las siguientes proposiciones compuestas. ¿Cuáles de las proposiciones son tautologías?
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item $ \neg P \wedge Q $ \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item $ \neg (P \wedge Q) $ \\
+		\solucion: \\
+		
+		% Inciso --- 3) ---
+		\item $ P \Rightarrow P $ \\
+		\solucion: \\
+		
+		% Inciso --- 4) ---
+		\item $ \neg (P \vee \neg Q) \Rightarrow \neg P $ \\
+		\solucion: \\
+		
+		% Inciso --- 5) ---
+		\item $ P \Rightarrow (Q \Rightarrow R) $ \\
+		\solucion: \\
+		
+		% Inciso --- 6) ---
+		\item $ (P \Rightarrow Q) \Rightarrow R $ \\
+		\solucion: \\
+		
+		% Inciso --- 7) ---
+		\item $ (P \Rightarrow Q) \Rightarrow (Q \Rightarrow P) $ \\
+		\solucion: \\
+		
+		% Inciso --- 8) ---
+		\item $ [P \wedge (P \Rightarrow Q)] \Rightarrow Q $ \\
+		\solucion: \\
+		
+		% Inciso --- 9) ---
+		\item $ (P \wedge Q) \Rightarrow P $ \\
+		\solucion: \\
+		
+		% Inciso --- 10) ---
+		\item $ Q \Leftrightarrow (\neg P \vee \neg Q) $ \\
+		\solucion: \\
+		
+		% Inciso --- 11) ---
+		\item $ [(P \Rightarrow Q) \wedge (Q \Rightarrow R)] \Rightarrow (P \Rightarrow R) $ \\
+		\solucion: \\
+		
+	\end{enumerate}
+	
+	% Inciso --- 0.1.11 ---
+	\item Usando tablas de verdad, compruebe las equivalencias siguientes:
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item $ \neg (\neg P) \Leftrightarrow P $ \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item $ P \wedge Q \Leftrightarrow Q \wedge P $ \\
+		\solucion: \\
+		
+		% Inciso --- 3) ---
+		\item $ P \vee Q \Leftrightarrow Q \vee P $ \\
+		\solucion: \\
+		
+		% Inciso --- 4) ---
+		\item $ \neg (P \wedge Q) \Leftrightarrow \neg P \vee \neg Q $ \\
+		\solucion: \\
+		
+		% Inciso --- 5) ---
+		\item $ \neg (P \vee Q) \Leftrightarrow \neg P \wedge \neg Q $ \\
+		\solucion: \\
+		
+		% Inciso --- 6) ---
+		\item $ (P \wedge Q) \wedge R \Leftrightarrow P \wedge (Q \wedge R) $ \\
+		\solucion: \\
+		
+		% Inciso --- 7) ---
+		\item $ (P \vee Q) \vee R \Leftrightarrow P \vee (Q \vee R) $ \\
+		\solucion: \\
+		
+		% Inciso --- 8) ---
+		\item $ P \wedge (Q \vee R) \Leftrightarrow (P \wedge Q) \vee (P \wedge R) $ \\
+		\solucion: \\
+		
+		% Inciso --- 9) ---
+		\item $ P \vee (Q \wedge R) \Leftrightarrow (P \vee Q) \wedge (P \vee R) $ \\
+		\solucion: \\
+		
+	\end{enumerate}
+	A las fórmulas (2) y (3) las llamamos leyes de conmutatividad para los conectivos $ \wedge $ y $ \vee $. A las fórmulas (4) y (5) las llamamos leyes de Morgan, a las leyes (6) y (7) leyes de asociatividad para los conectivos $ \wedge $ y $ \vee $, y a las leyes (8) y (9) las llamamos leyes de distributividad para los conectivos involucrados.
+	
+	% Inciso --- 0.1.12 ---
+	\item Sean $ P $ y $ Q $ proposiciones. Se define la disyunción exclusiva $ \veebar $ como
+	\[ P \veebar Q: (P \wedge \wedge Q) \vee (\neg P \wedge Q) \]
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item Dé la tabla de verdad para el conectivo $ \veebar $. \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item Determine si las siguientes proposiciones acerca de los números enteros es verdadera o falsa.
+		\begin{enumerate}[label=\roman*)]
+			% Inciso --- i) ---
+			\item $ [3+1=4] \veebar [2+5=7] $ \\
+			\solucion: \\
+			
+			% Inciso --- ii) ---
+			\item $ [3+1=4] \veebar [2+5=9] $ \\
+			\solucion: \\
+			
+			% Inciso --- iii) ---
+			\item $ [3+1=7] \veebar [2+5=7] $ \\
+			\solucion: \\
+			
+			% Inciso --- iv) ---
+			\item $ [3+1=7] \veebar [2+5=9] $ \\
+			\solucion: \\
+		\end{enumerate}
+	
+		% Inciso --- 3) ---
+		\item Demuestre que $ P \veebar Q \Leftrightarrow \neg (P \Leftrightarrow Q) $ es una tautología. \\
+		\solucion: \\
+		
+	\end{enumerate}
+
+	% Inciso --- 0.1.13 --- 
+	\item Justifica cada paso de la siguiente demostración directa, que prueba que si $ x $ es un número entero, entonces $ x \cdot 0  = 0 $. Suponga que los siguientes son teoremas previos:
+	\begin{enumerate}[label=\arabic*)]
+		\item Si $ a $, $ b $ y $ c $ son números enteros, entonces $ b + 0 = b $ y $ a(b+c) = ab + ac $.
+		\item Si $ a $, $ b $ y $ c $ son números enteros tales que $ a + b = a + c $, entonces $ b = c $.
+	\end{enumerate}
+
+	Demostración. $ x \cdot 0 + 0 = x \cdot 0 = x \cdot (0+0) = x \cdot 0 + x \cdot 0 $; por lo tanto, $ x \cdot 0 = 0 $. \\
+	Aceptamos que un número entero $ x $ es impar a si existe un número entero $ z $ tal que $ x = 2 \cdot z + 1 $. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.14 ---
+	\item Dé una demostración directa de las siguientes proposiciones.
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item Para todos los enteros $ m $ y $ n $, si $ m $ y $ n $ son pares, entonces $ m + n $ es par. \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item Para todos los enteros $ m $ y $ n $, si $ m+n $ es par, entonces $ m $ y $ n $ son los dos pares o los dos impares. \\
+		\solucion: \\
+		
+	\end{enumerate}
+
+	En los ejercicios 0.1.15 al 0.1.17 aceptaremos las propiedades de la suma y el producto de los números enteros (véase teoremas 6.1.3 y 6.1.5).
+	
+	% Inciso --- 0.1.15 ---
+	\item Dé una demostración por contraposición de cada una de las siguientes proposiciones.
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item Para todo entero $ m $, si $ m $ es par, entonces $ m+7 $ es impar. \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item Para todos los enteros $ m $ y $ n $, si $ mn $ es impar, entonces $ m $ y $ n $ son impares. \\
+		\solucion: \\
+		
+		% Inciso --- 3) ---
+		\item Para todos los enteros $ m $ y $ n $, si $ m+n $ es par, entonces $ m $ y $ n $ son los dos pares o los dos impares. \\
+		\solucion: \\
+		
+		% Inciso --- 4) ---
+		\item Para todos los enteros $ m $ y $ n $, si $ m \cdot n > 25 $, entonces $ m > 5 $ o $ n > 5 $. \\
+		\solucion: \\
+	\end{enumerate}
+
+	% Inciso --- 0.1.16 ---
+	\item Realice una demostración por reducción al absurdo de la siguiente proposición: para cualquier entero $ n $, si $ n^2 $ es impar, entonces $ n $ es impar. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.17 ---
+	\item Demuestre el siguiente resultado dando una demostración directa, otra por contraposición y otra por reducción al absurdo: Si $ n $ es un entero impar, entonces $ n + 11 $ es par. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.18 ---
+	\item Dé una demostración por reducción al absurdo  de la siguiente afirmación: si se colocan 100 pelotas en nueve urnas. alguna urna contiene 12 pelotas o más. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.19 ---
+	\item Dé una demostración por reducción al absurdo de la siguiente afirmación: si se distribuyen 40 monedas en nueve bolsas de manera que cada bolsa contenga al menos una moneda, al menos dos bolsas contienen el mismo número de monedas. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.20 ---
+	\item Sea
+	\[ A = \frac{a_1 + a_2 + \cdot + a_n}{n} \]
+	el promedio de los números reales $ a_1, a_2, \ldots, a_n $. Demuestre por reducción al absurdo, que existe $ i $ tal que $ a_i \geq A $. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.21 ---
+	\item Sea
+	\[ A = \frac{a_1 + a_2 + \cdot + a_n}{n} \]
+	el promedio de los números reales $ a_1, a_2, \ldots, a_n $. Pruebe o desapruebe: existe $ i $ tal que $ a_i > A $. ¿Qué método de demostración utilizó? \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.22 ---
+	\item Sea
+	\[ A = \frac{a_1 + a_2 + \cdot + a_n}{n} \]
+	el promedio de los números reales $ a_1, a_2, \ldots, a_n $. Suponga que existe $ i $ tal que $ a_i < A $. Pruebe o desapruebe: existe $ j $ tal que $ a_j > A $. ¿Qué método de demostración utilizó? \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.23 ---
+	\item \textbf{Definición}. Si $ x $ es un número real, se define el valor absoluto de $ x $ como $ |x| = x $ si $ x \geq 0 $ y $ |x| = -x $ si $ x < 0 $.
+	
+	% Inciso --- 0.1.24 ---
+	\item Utilice la demostración por casos para probar que $ |xy| = |x||y| $ para todos los números reales $ x $ y $ y $. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.25 ---
+	\item Demuestre la desigualdad $ -|x| \leq x \leq |x| $, donde $ x $ es un número entero. Para ello divida la demostración en dos casos: $ x \geq 0 $ y $ x <0 $. \\
+	\solucion: \\
+	
+	% Inciso --- 0.1.26 ---
+	\item En matemáticas, con frecuencia se debe afirmar no sólo la existencia de un objeto $ a $ (ya sea un número, un triángulo, etcétera) que satisfaga una proposición $ P(x) $, sino también el hecho de que ese objeto $ a $ es el único para el que se satisface $ p(x) $ es verdadera; entonces, el objeto es único. Esto se denota con el cuantificador $ \exists ! x P(x) $, que se lee como ``Existe un único $ x $''. Este cuantificador puede definirse en términos de los cuantificadores existencia y universal:
+	\[ \exists ! x P(x): [\exists x P(x)] \wedge (\forall x \forall y [(P(x) \wedge P(y)) \Rightarrow (x = y)]) \]
+	Esta definición indica que ``una demostración de existencia y unicidad'' requiere ``una demostración  de existencia'', que con frecuencia se realiza construyendo un ejemplo que satisfaga $ P(x) $, y ``una demostración de la unicidad''.
+	\begin{enumerate}[label=\arabic*)]
+		% Inciso --- 1) ---
+		\item Considere la proposición $ \exists ! x (x^2 = 4) $. Dé un ejemplo de un conjunto de referencia en el que la proposición es verdadera, y dé un ejemplo de otro conjunto de referencia donde la proposición es falsa. \\
+		\solucion: \\
+		
+		% Inciso --- 2) ---
+		\item Sea $ P(x,y): y = -2x $, el conjunto de referencia está formado por todos los enteros. Determine cuáles de las proposiciones son verdaderas o falsas.
+		\begin{enumerate}[label=\roman*)]
+			% Inciso --- i) ---
+			\item $ [\forall x \exists ! y P(x,y)] \Rightarrow [\exists ! y \forall x P(x,y)] $ \\
+			\solucion: \\
+			
+			% Inciso --- ii) ---
+			\item $ [\exists ! y \forall x P(x,y)] \Rightarrow [\forall x \exists ! y P(x,y)] $ \\
+			\solucion: \\
+			
+		\end{enumerate}
+	\end{enumerate}
 	
 \end{enumerate}
 
